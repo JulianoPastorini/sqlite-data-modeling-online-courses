@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "id": 42,
+      "name": "André",
+      "password": "senha123",
+      "email": "andre@email.com",
+      "created": "2049-06-14 12:34:56"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "slug": "javascript-basico",
+      "title": "JavaScript Básico",
+      "description": "Aprenda os fundamentos da linguagem JavaScript.",
+      "aulas": 20,
+      "horas": 5,
+      "created": "2049-06-14 12:34:56"
+    }
+  ],
+  "lessons": [
+    {
+      "id": 101,
+      "course_id": 1,
+      "slug": "variaveis-let-const",
+      "title": "Variáveis: let e const",
+      "materia": "Fundamentos",
+      "materia_slug": "fundamentos",
+      "seconds": 480,
+      "video": "variaveis.mp4",
+      "description": "Entenda a diferença entre let, const e var.",
+      "lesson_order": 3,
+      "free": 1,
+      "created": "2049-06-14 12:35:10"
+    }
+  ],
+  "lessons_completed": [
+    {
+      "user_id": 42,
+      "course_id": 1,
